@@ -1,2 +1,2 @@
-# express-todo
-Simple To Do List with MEVN
+# Users Manager API with Express.js
+Simple users manager panel with MEVN

@@ -1,7 +1,7 @@
 {
-  "name": "express-todo",
+  "name": "users-manager-api",
   "version": "1.0.0",
-  "description": "Simple To Do List with MEVN",
+  "description": "Simple users manager panel with MEVN",
   "main": "server.js",
   "scripts": {
     "start": "npx nodemon ./api/server.js"
