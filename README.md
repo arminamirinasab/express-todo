@@ -23,7 +23,7 @@ The Users Manager API is a simple application built with Node.js and Express.js 
 
 Clone the Repository:
 ``` bash
-git clone <repository-url>
+git clone https://github.com/arminamirinasab/users-manager-api
 cd users-manager
 ```
 
@@ -36,7 +36,7 @@ Run the Server:
 ``` bash
 npm start
 ```
-Access the API: Open your browser or a tool like Postman and navigate to http://localhost:3000/api/users to interact with the API.
+Access the API: Open your browser or a tool like Postman and navigate to http://localhost:3000/users/ to interact with the API.
 
 ### API Endpoints
 ``` bash
