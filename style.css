@@ -1,9 +1,7 @@
 body {
-  background: linear-gradient(180deg, #141E30 0%, #243B55 100%);
-  background-blend-mode: screen;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: #101117;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 div:first-child {
   margin: 20px 0;
 }

@@ -10,6 +10,7 @@ userRouter.get("/", async (req, res) => {
   res.status(200).send(await User.GetAll());
 });
 
+
 // Remove user route
 userRouter.delete("/remove", async (req, res) => {
   let result = await User.Remove(req.query.id);
@@ -26,10 +27,12 @@ userRouter.post("/add", (req, res) => {
   let check = docValidate.compile({
     name: {
       type: "string",
+      min: 1,
       required: true,
     },
     family: {
       type: "string",
+      min: 1,
       required: true,
     },
     age: {
@@ -42,10 +45,12 @@ userRouter.post("/add", (req, res) => {
     },
     job: {
       type: "string",
+      min: 1,
       required: true,
     },
     address: {
       type: "string",
+      min: 1,
       required: true,
     },
     isArchive: {
